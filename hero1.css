@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+.hero-section{
+    width: 1920px;
+    height: 1080px;
+    border-radius: #0f0000;
+}
+.hero-section .navbar{
+    width: 1920px;
+    height: 120px;
+}
+.hero-section .navbar img{
+    width: 158px;
+    height: 53px;
+    position: absolute;
+    top: 33px;
+    left: 160px;
+}
+.hero-section .navbar .menu{
+    width: 568px;
+    height: 27px;
+    position: absolute;
+    top: 46px;
+    left: 676px;
+
+}
+.hero-section .navbar .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section .navbar .menu ul li{
+    display: inline-block;
+}
+.hero-section .navbar .menu ul li a{
+   font-weight: 400;
+   font-size: 18px;
+   color: #2E2E2E;
+   text-decoration: none;
+}
+.hero-section .navbar #rec{
+    width: 43px;
+    height: 6px;
+    top: 81px;
+    left: 705px;
+    border-radius: 8px;
+}
+.hero-section .navbar .button{
+    width: 140px;
+    height: 48px;
+    position: absolute;
+    top: 36px;
+    left: 1620px;
+    border-radius: 8px;
+    background-color: #F77A40;
+
+}
+
+.hero-section .navbar .button a{
+    width: 60px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.hero-section .navbar .btn{
+    width: 68px;
+    height: 27px;
+    position: absolute;
+    top: 46px;
+    left: 1520px;
+}
+
+
+.hero-section .navbar .btn a{
+    width: 68px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2E2E2E;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.hero-section .form{
+    width: 880px;
+    height: 211px;
+    position: absolute;
+    top: 748px;
+    left: 150px;
+    border-radius: 40px;
+    box-shadow: 0px 20px 50px -20px #0000001A;
+    
+}
+
+.hero-section .form .tabs{
+    width: 468px;
+    height: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hero-section .form .tabs .three{
+    width: 156px;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    background: #ABABAB26;
+
+}
+.hero-section .form .tabs .three p{
+    width: 60px;
+    height: 27px;
+    opacity: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 26.5px;
+    margin-right: 24px;
+    margin-bottom: 26.5px;
+    display: flex;
+    align-items: center;
+    color: #2E2E2E;
+}
+.hero-section .form .tabs .three img{
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .form .tabs .two{
+    width: 156px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background: #ABABAB26;
+
+}
+.hero-section .form .tabs .two p{
+    width: 60px;
+    height: 27px;
+    opacity: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 26.5px;
+    margin-right: 24px;
+    margin-bottom: 26.5px;
+    display: flex;
+    align-items: center;
+    color: #2E2E2E;
+}
+.hero-section .form .tabs .two img{
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+.hero-section .form .tabs .one{
+    width: 156px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.hero-section .form .tabs .one p{
+    width: 60px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 26.5px;
+    margin-right: 24px;
+    margin-bottom: 26.5px;
+    display: flex;
+    align-items: center;
+    color: #F77A40;
+}
+.hero-section .form .tabs .one img{
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+.hero-section .form .content{
+    width: 880px;
+    height: 131px;
+    position: absolute;
+    margin-top: 0;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+}
+
+.hero-section .form .content .forms{
+    width: 552px;
+    height: 67px;
+    border-width: 1px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 64px;
+}
+.hero-section .form .content .forms .date{
+    width: 248px;
+    height: 67px;
+    float: right; 
+}
+.hero-section .form .content .forms .date p{
+    width: 43px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ABABAB;
+    margin-right: 205px;
+}
+.hero-section .form .content .forms .date .one{
+    width: 248px;
+    height: 32px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.hero-section .form .content .forms .date .one img{
+    width: 32px;
+    height: 32px;
+    float: right;
+}
+.hero-section .form .content .forms .date .one .date{
+    width: 192px;
+    height: 27px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+.hero-section .form .content .forms .date .one .date h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 160px;
+    height: 27px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 8px;
+    align-items: center;
+    float: right;
+    color: #2E2E2E;
+}
+
+.hero-section .form .content .forms .date .one .date img{
+    width: 24px;
+    height: 24px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+    margin-right: 8px;
+    align-items: center;
+    position: absolute;
+}
+.hero-section .form .content .forms .Destination{
+    width: 208px;
+    height: 67px;
+    float: left;
+}
+.hero-section .form .content .forms .Destination p{
+    width: 102px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ABABAB;
+    margin-right: 106px;
+}
+.hero-section .form .content .forms .Destination .three{
+    width: 208px;
+    height: 32px;
+    margin-top: 8px;
+}
+.hero-section .form .content .forms .Destination .three img{
+    width: 32px;
+    height: 32px;
+    float: right;
+}
+.hero-section .form .content .forms .Destination .three .destenition{
+    width: 152px;
+    height: 27px;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+    margin-right: 24px;
+}
+.hero-section .form .content .forms .Destination .three .destenition img{
+    width: 24px;
+    height: 24px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-right: 8px;
+    align-items: center;
+    position: absolute;
+}
+.hero-section .form .content .forms .Destination .three .destenition h3{
+    width: 120px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2E2E2E;
+    margin-top: 2px;
+    margin-bottom:2px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.hero-section .form .content .forms .line{
+    width: 1px;
+    height: 48px;
+    background-color: #ABABAB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 42px;
+    left: 320px;
+}
+.hero-section .form .content .btn{
+    width: 160px;
+    height: 64px;
+    border-radius: 16px;   
+    background-color: #F77A40;
+    position: absolute;
+    margin-top: 33.5px;
+    margin-bottom: 33.5px;
+    margin-right: 64px;
+    margin-left: 656px;
+}
+.hero-section .form .content .btn a{
+    width: 64px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    margin: 18.5px 48px;
+    text-decoration: none;
+}
+.hero-section .title{
+    width: 920px;
+    height: 520px;
+    position: absolute;
+    top: 200px;
+    left: 160px;
+}
+.hero-section .title h1{
+    width: 920px;
+    height: 384px;
+    top: 200px;
+    left: 160px;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 128px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0px;
+}
+.hero-section .title h1 span{
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 128px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0px;
+}
+.hero-section .title p{
+    width: 648;
+    height: 120;
+    top: 600px;
+    left: 160px;
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #2E2E2E;
+}
+
+.hero-section .decore{
+    width: 1080px;
+    height: 1080px;
+    position: relative;
+    top: -187px;
+    left: 629px;
+    z-index: -1;
+}
+.hero-section .decore #circle{
+    width: 1350px;
+    height: 1350px;
+}
+.hero-section .decore #c{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 350px;
+    left: 430px;
+}
+.hero-section .decore #vector{
+    width: 790px;
+    height: 450px;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    
+}
+.hero-section .decore #girl{
+    width: 950px;
+    height: 1234px;
+    position: absolute;
+    top: 30px;
+    left: 370px;
+
+}
+.hero-section .decore #plane{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 565px;
+    left: 350px;
+}
+.hero-section .decore #line{
+    width: 745px;
+    height: 292.24px;
+    position: absolute;
+    top: 510px;
+    left: 395px;
+}
+.hero-section .decore #content{
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    top: 380px;
+    left: 320px;
+}
+.hero-section .decore #hotline{
+    width: 550px;
+    height: 230px;
+    position: absolute;
+    top: 955px;
+    left: 730px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

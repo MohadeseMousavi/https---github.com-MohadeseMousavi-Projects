@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.task5{
+    width: 1920px;
+    height: 1080px;
+    top: -2191px;
+    left: 1057px;
+    background-color: #F4F3F8;
+}
+.task5 .service{
+    width: 1192px;
+    height: 292px;
+    position: relative;
+    top: 733px;
+    left: 160px;
+}
+.task5 .service h2{
+    width: 185px;
+    height: 58px;
+    float: left;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #333333;
+    font-family: "Bebas Neue", sans-serif;
+    text-transform:uppercase;
+}
+.task5 .service .item{
+    width: 1192px;
+    height: 186px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.task5 .service .item .three{
+    width: 376px;
+    height: 186px;
+    float: right;
+}
+.task5 .service .item .two{
+    width: 376px;
+    height: 186px;
+    display: flex;
+    box-sizing: border-box;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+.task5 .service .item .one{
+    width: 376px;
+    height: 186px;
+    float: left;
+}
+.task5 .service .item .three img{
+    width: 64px;
+    height: 64px;
+}
+.task5 .service .item .three .text{
+    width: 300px;
+    height: 98px;
+    margin-top: 18px;
+    margin-right: 76px;
+}
+.task5 .service .item .three .text h3{
+    width: 184px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #333333;
+}
+.task5 .service .item .three .text p{
+    width: 300px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #909090;
+    margin-top: 20px;
+}
+.task5 .service .item .two img{
+    width: 64px;
+    height: 64px;
+}
+.task5 .service .item .two .text{
+    width: 300px;
+    height: 98px;
+    position: absolute;
+    margin-top: 88px;
+    margin-right: 76px;
+}
+.task5 .service .item .two .text h3{
+    width: 68px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #333333;
+}
+.task5 .service .item .two .text p{
+    width: 300px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #909090;
+    margin-top: 20px;
+}
+.task5 .service .item .one img{
+    width: 64px;
+    height: 64px;
+}
+.task5 .service .item .one .text{
+    width: 300px;
+    height: 98px;
+    position: absolute;
+    margin-top: 18px;
+    margin-right: 76px;
+}
+.task5 .service .item .one .text h3{
+    width: 111px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #333333;
+}
+.task5 .service .item .one .text p{
+    width: 300px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #909090;
+    margin-top: 20px; 
+}
+.task5 .navbar{
+    width: 1920px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+}
+.task5 .navbar h4{
+    text-decoration: none;
+    width: 82px;
+    height: 54px;
+    position: relative;
+    top: 33px;
+    left: 160px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #DC0155;
+}
+.task5 .navbar .menu{
+    width: 499px;
+    height: 27px;
+    position: absolute;
+    top: 46px;
+    left: 711px;
+    word-spacing: 51px;
+}
+.task5 .navbar .menu ul{
+    list-style: none;
+}
+.task5 .navbar .menu ul li{
+    display: inline-block;
+    
+}
+.task5 .navbar .menu ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #333333;
+   
+}
+.task5 .navbar .menu ul li .j{
+    word-spacing: 0px;
+}
+
+.task5 .navbar img{
+    width: 32;
+    height: 32;
+    position: absolute;
+    top: 44px;
+    left: 1760px;
+}
+.task5 .title{
+    width: 784px;
+    height: 448px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+}
+.task5 .title .button{
+    width: 180px;
+    height: 60px;
+    left: 160px;
+    border-radius: 32px;
+    margin-top: 388px;
+    margin-right: 604px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: #DC0155;
+}
+.task5 .title .button a{
+    width: 112px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F4F3F8;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 34px;
+    margin-left: 34px;
+
+}
+
+.task5 .title h5{
+    width:719px ;
+    height:36px ;
+    position: absolute;
+    top: 0px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #333333;
+}
+.task5 .title img{
+    width: 700px;
+    height: 240px;
+    position: absolute;
+    top: 44px;
+    margin-bottom: 16px;
+}
+.task5 .title p{
+    width: 784px;
+    height: 40px;
+    position: absolute;
+    top: 300px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #333333;
+}
+.task5 .image{
+    position: absolute;
+    top: 151px;
+    bottom: 235px;
+    left: 990px;
+    width: 859px;
+    height: 639px;
+    z-index: 1;
+}
+.task5 .image img{
+    width: 908px;
+    height: 710px;
+    margin: 0%;
+}
+.task5 .shape{
+    width: 2236px;
+    height: 1085px;
+    position: absolute;
+    top: -5px;
+    left: -316px;
+}
+.task5 .shape .one{
+    width: 720px;
+    height: 381.41px;
+    position: absolute;
+    top: 5px;
+    left: 316px;
+
+}
+.task5 .shape .two{
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    top: 566.92px;
+    right: 61px;
+}
+.task5 .shape .tree{
+    width: 404.08px;
+    height: 250px;
+    position: absolute;
+    top: 830px;
+    right: 0px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+

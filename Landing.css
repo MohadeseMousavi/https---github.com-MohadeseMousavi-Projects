@@ -1,0 +1,1203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.landing{
+   width: 1440px;
+   height: 5305px;
+   position: absolute;
+}
+.landing .navbar{
+    width: 1440px;
+    height: 88px;
+    position: relative;
+    justify-content: space-between;
+}
+.landing .navbar img{
+    width: 40px;
+    height: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 80px;
+}
+.landing .navbar .menu{
+    width: 522px;
+    height: 24px;
+    position: absolute;
+    top: 32px;
+    left: 477px;
+}
+.landing .navbar .menu ul{
+    list-style: none;
+}
+.landing .navbar .menu ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.landing .navbar .menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 120%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+}
+.landing .navbar .icon{
+    width: 64px;
+    height: 24px;
+    position: absolute;
+    top: 32px;
+    left: 1296px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.landing .navbar .icon #Search{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+.landing .navbar .icon #bag{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+.landing .tittle{
+   width: 1440px;
+   height: 936px;
+   position: absolute;
+   margin-top: 0;
+}
+.landing .tittle .text{
+    width: 631px;
+    height: 348px;
+    position: absolute;
+    top: 80px;
+    left: 404.5px;
+}
+.landing .tittle .text h2{
+    width: 563px;
+    height: 154px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-size: 64px;
+    font-family: "Playfair Display", serif;
+    margin-left: 34px;
+    color: #282A3A;
+}
+.landing .tittle .text p{
+    width: 631px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #282A3A;
+    margin-top: 24px;
+}
+.landing .tittle .text .btn{
+    width: 363px;
+    height: 82px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    background-color: #6D1600;
+    margin: 24px 134px 80px 134px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing .tittle .text .btn img {
+    width: 34px;
+    height: 34px;
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-right: 48px;
+    margin-bottom: 24px;
+}
+.landing .tittle .text .btn a {
+    color: #FFFFFF;
+    font-family: "Playfair Display SC", serif;
+    text-decoration: none;
+    width: 217px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-top: 24px;
+    margin-left: 48px;
+    text-transform: uppercase;
+}
+.landing .tittle .image{
+    position: absolute;
+    top: 508px;
+    left: 80px;
+    width: 1280px;
+    height: 348px;
+    display: flex;
+    justify-content: space-between;
+}
+.landing #rec1{
+    width: 1440px;
+    height: 1px;
+    position: absolute;
+    top: 1024px;
+}
+.landing .social{
+    width: 1440px;
+    height: 274px;
+    margin-top: 937px;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    
+}
+.landing .social .one{
+    width: 214px;
+    height: 114px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 170.5px;
+}
+.landing .social .one h3{
+    width: 214px;
+    height: 77px;
+    color: #282A3A;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    
+}
+.landing .social .one p{
+    width: 214px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #282A3A;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.landing .social #l1{
+    width: 1px;
+    height: 114px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.landing .social .two{
+    width: 214px;
+    height: 114px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+}
+.landing .social .two h3{
+    width: 214px;
+    height: 77px;
+    color: #282A3A;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    
+}
+.landing .social .two p{
+    width: 214px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #282A3A;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.landing .social #l2{
+    width: 1px;
+    height: 114px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.landing .social .three{
+    width: 214px;
+    height: 114px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+}
+.landing .social .three h3{
+    width: 214px;
+    height: 77px;
+    color: #282A3A;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.landing .social .three p{
+    width: 214px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #282A3A;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.landing .social #l3{
+    width: 1px;
+    height: 114px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.landing .social .four{
+    width: 214px;
+    height: 114px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+}
+.landing .social .four h3{
+    width: 214px;
+    height: 77px;
+    color: #282A3A;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.landing .social .four p{
+    width: 214px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #282A3A;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.landing #rec2{
+    width: 1440px;
+    height: 1px;
+    position: absolute;
+    top: 1299px;
+}
+.landing .products{
+    width: 1440px;
+    height: 961px;
+    margin-top: 0px;
+}
+.landing .products .title{
+    width: 443px;
+    height: 80px;
+    position: absolute;
+    top: 1380px;
+    left: 498.5px;
+}
+.landing .products .title p{
+    width: 149px;
+    height: 29px;
+    opacity: 56%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    font-family: "Inter", sans-serif;
+    color: #282A3A;
+    display: flex;
+    justify-content: center;
+    margin-left: 147px;
+}
+.landing .products .title h4{
+    width: 443px;
+    height: 43px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #282A3A;
+    font-family: "Playfair Display", serif;
+    margin-top: 8px;
+}
+.landing .products .pictures{
+    width: 1280px;
+    height: 641px;
+    position: absolute;
+    top: 1540px;
+    left: 80px;
+}
+.landing .products .pictures .type{
+    width: 556px;
+    height: 77px;
+    border-radius: 40px;
+    position: absolute;
+    top: 0px;
+    left: 362px;
+    background-color: #F6F6F6;
+}
+.landing .products .pictures .type .l{
+    width: 180px;
+    height: 61px;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+.landing .products .pictures .type .l a{
+    width: 61px;
+    height: 29px;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 2%;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 59.5px;
+}
+.landing .products .pictures .type .r{
+    width: 180px;
+    height: 61px;
+    border-radius: 40px;
+    position: absolute;
+    top: 8px;
+    left: 188px;
+}
+.landing .products .pictures .type .r a{
+    width: 97px;
+    height: 29px;
+    opacity: 70%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 2%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-left: 41.5px;
+    color: #282A3A;
+}
+.landing .products .pictures .type .a{
+    width: 180px;
+    height: 61px;
+    border-radius: 40px;
+    position: absolute;
+    top: 8px;
+    left: 368px;
+}
+.landing .products .pictures .type .a a{
+    width: 94px;
+    height: 29px;
+    opacity: 70%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 2%;
+    color: #282A3A;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-left: 43px;
+}
+.landing .products .pictures .box{
+    width: 1280px;
+    height: 476px;
+    margin-top: 117px;
+    display: flex;
+    justify-content: space-between;
+}
+.landing .products .pictures .box .one{
+    width: 302px;
+    height: 476px;
+}
+.landing .products .pictures .box .one img{
+    width: 302px;
+    height: 240px;
+}
+.landing .products .pictures .box .one .inf{
+    width: 302px;
+    height: 236px;
+    position: absolute;
+    top: 357px;
+}
+.landing .products .pictures .box .one .inf a{
+    width: 254px;
+    height: 34px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #282A3A;
+    text-decoration: none;
+    position: absolute;
+    top: 16px;
+    left: 24px;
+}
+.landing .products .pictures .box .one .inf .star{
+    width: 254px;
+    height: 24px;
+    margin-top: 66px;
+    margin-left: 24px;
+}
+.landing .products .pictures .box .one .inf .star p{
+    width: 105px;
+    height: 22px;
+    opacity: 72%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #282A3A;
+    position: absolute;
+    top: 67px;
+    right: 80px;
+    left: 93px;
+}
+
+.landing .products .pictures .box .one .inf .star .point{
+    width: 61px;
+    height: 24px;
+}
+.landing .products .pictures .box .one .inf .star .point img{
+    width: 24px;
+    height: 24px;
+}
+.landing .products .pictures .box .one .inf .star .point a{
+    width: 33px;
+    height: 24px;
+    opacity: 70%;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 2%;
+    color: #282A3A;
+    position: absolute;
+    top: 66px;
+    left: 52px;
+}
+.landing .products .pictures .box .one .inf #lorem{
+    width: 254px;
+    height: 66px;
+    opacity: 72%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #282A3A;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.landing .products .pictures .box .one .inf .price{
+    width: 254px;
+    height: 32px;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.landing .products .pictures .box .one .inf .price a{
+    width: 158px;
+    height: 24px;
+    opacity: 70%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 2%;
+    font-family: "Inter", sans-serif;
+    color: #282A3A;
+    position: absolute;
+    top: 192px;
+    left: 24px;
+}
+.landing .products .pictures .box .one .inf .price img{
+    width: 80px;
+    height: 32px;
+    float: right;
+}
+
+.landing .products .pictures .vector{
+    width: 44px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 618px;
+}
+
+.landing#rec3{
+    width: 1440px;
+    height: 1px;
+    position: absolute;
+    top: 2261px;
+}
+
+.landing .about{
+    width: 1440px;
+    height: 762px;
+    margin-top: -5px;
+    margin-left: 0;
+}
+.landing .about .title{
+    width: 322px;
+    height: 80px;
+    position: absolute;
+    top: 2342px;
+    left: 599px;
+}
+.landing .about .title a{
+    width: 102px;
+    height: 29px;
+    opacity: 56%;
+    font-weight:400 ;
+    font-size: 24px;
+    color: #282A3A;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    margin-top: 0;
+    margin-left: 110px;
+}
+.landing .about .title h4{
+    width: 322px;
+    height: 43px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #282A3A;
+    font-family: "Playfair Display", serif;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.landing .about .body{
+    width: 1280px;
+    height: 442px;
+    position: absolute;
+    top: 2502px;
+    left: 80px;
+}
+.landing .about .body .image{
+    width: 600px;
+    height: 442px;
+    float: right;
+}
+.landing .about .body .image #left{
+    width: 288px;
+    height: 442px;
+}
+.landing .about .body .image #right{
+    width: 288px;
+    height: 442px;
+    float: right;
+}
+.landing .about .body .text{
+   width: 600px;
+   height: 442px;
+}
+.landing .about .body .text p{
+    width: 600px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #282A3A;
+    margin-bottom: 24px;
+    font-family: "Inter", sans-serif;
+}
+.landing .about .body .text .btn{
+    width: 280px;
+    height: 82px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    background-color: #6D1600;
+}
+
+.landing .about .body .text .btn img{
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    position: absolute;
+    top: 382px;
+    left: 198px;
+}
+.landing .about .body .text .btn a{
+    width: 134px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: "Playfair Display SC", serif;
+    color: #FFFFFF;
+    position: absolute;
+    top: 384px;
+    left: 48px;
+    text-transform: uppercase;
+}
+.landing#rec4{
+    width: 1440px;
+    height: 1px;
+    position: absolute;
+    top: 2261px;
+}
+.landing .test{
+    width: 1440px;
+    height: 728px;
+}
+.landing .test .title{
+    width: 328px;
+    height: 80px;
+    position: absolute;
+    top: 3105px;
+    left: 556px;
+}
+.landing .test .title a{
+    width: 129px;
+    height: 29px;
+    opacity: 56%;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #282A3A;
+    margin-top: 0px;
+    margin-left: 99.5px;
+}  
+.landing .test .title h4{
+    width: 328px;
+    height: 43px;
+    font-size: 36px;
+    text-align: center;
+    color: #282A3A;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    margin-top: 8px;
+    margin-left: 0px;
+}
+.landing .test .body{
+    width: 1280px;
+    height: 408px;
+    position: absolute;
+    top: 3265px;
+    left: 80px;
+}
+.landing .test .body .text{
+    width: 1280px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.landing .test .body .text .item{
+    width: 405.34px;
+    height: 360px;
+    border-radius: 24px;
+    display: inline-block;
+}
+.landing .test .body .text .item .name{
+    width: 325.34px;
+    height: 100px;
+    margin-top: 24px;
+    margin-left: 40px;
+}
+.landing .test .body .text .item .name img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.landing .test .body .text .item .name .star{
+    width: 137px;
+    height: 56px;
+    position: absolute;
+    top: 46px;
+    margin-left: 110px;
+}
+.landing .test .body .text .item .name .star a{
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #282A3A;
+    font-weight: 600;
+    text-decoration: none;
+}
+.landing .test .body .text .item .name .star img{
+    width: 120px;
+    height: 24px;
+    margin-top: 8px;
+}
+.landing .test .body .text .item p{
+    width: 325.34px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #282A3A;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+.landing .test .body .vector{
+    width: 44px;
+    height: 8px;
+    margin-top: 34px;
+    margin-left: 618px;
+}
+.landing .test .body .vector img{
+    width: 44px;
+    height: 8px;
+}
+
+.landing#rec5{
+    width: 1440px;
+    height: 1px;
+    position: absolute;
+    top: 3754px;
+}
+.landing .blog{
+    width: 1440px;
+    height: 1023px;
+    position: absolute;
+    top: 3754px;
+}
+.landing .blog .title{
+    width: 274px;
+    height: 80px;
+    margin-top: 80px;
+    margin-left: 583px;
+}
+.landing .blog .title a{
+    width: 51px;
+    height: 29px;
+    opacity:56%;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    color: #282A3A;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 115.5px;
+}
+.landing .blog .title h4{
+    width: 274px;
+    height: 43px;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #282A3A;
+}
+.landing .blog .body {
+    width: 1280px;
+    height: 541px;
+    margin-top: 80px;
+    margin-left:80px;
+    display: flex;
+    justify-content: space-between;
+}
+.landing .blog .body .item{
+    width: 405.33px;
+    height: 541px;
+    border-bottom-left-radius: 40px;
+    border-width: 1px;
+    border: 1px solid #D9D9D9;
+    border-top-right-radius: 96px;
+    display: inline-block;
+}
+.landing .blog .body .item img{
+    width: 373.33px;
+    height: 320px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.landing .blog .body .item .inf{
+    width: 373.33px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.landing .blog .body .item .inf .name{
+    width: 95px;
+    height: 17px;
+    float: left;
+}
+.landing .blog .body .item .inf .name img{
+    width: 17px;
+    height: 17px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.landing .blog .body .item .inf .name a{
+    width: 65px;
+    height: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282A3A;
+    text-decoration: none;
+    margin-left: 8px;
+    float: right;
+}
+.landing .blog .body .item .inf .date{
+    width: 116px;
+    height: 17px;
+    float: right;
+}
+.landing .blog .body .item .inf .date img{
+    width: 17px;
+    height: 17px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.landing .blog .body .item .inf .date a{
+    width: 91px;
+    height: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282A3A;
+    text-decoration: none;
+    float: right;
+}
+.landing .blog .body .item p{
+    width: 373.33px;
+    height: 102px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 140%;
+    font-weight: 600;
+    font-size: 24px;
+    color: #282A3A;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.landing .blog .body .item .button{
+    width: 373.33px;
+    height: 22px;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.landing .blog .body .item .button a{
+    width: 92px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #282A3A;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-right: 8px;
+    margin-left: 241.33px;
+}
+.landing .blog .body .item .button img{
+    width: 16px;
+    height: 16px;
+    margin-top: -17px;
+    margin-right: 16px;
+    float: right;
+}
+.landing .blog .btn {
+    width: 280px;
+    height: 82px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    background-color: #6D1600;
+    margin-top: 80px;
+    margin-left: 580px;
+}
+.landing .blog .btn a{
+    width: 134px;
+    height: 34px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 890px;
+    left: 628px;
+}
+.landing .blog .btn img{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 885px;
+    right: 628px;
+}
+
+.landing .footer{
+    width: 1440px;
+    height: 528px;
+    background-color: #282A3A;
+    position: absolute;
+    top: 4777px;
+}
+.landing .footer .text{
+    width: 382px;
+    height: 310px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.landing .footer .text .logo{
+    width: 220px;
+    height: 58px;
+}
+.landing .footer .text .logo img{
+    width: 58px;
+    height: 58px;
+}
+.landing .footer .text .logo h3{
+    width: 138px;
+    height: 58px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-left: 24px;
+    float: right;
+}
+.landing .footer .text #one{
+    width: 382px;
+    height: 128px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+.landing .footer .text #two{
+    width: 213px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    margin-top: 32px;
+    margin-right: 169px;
+
+}
+.landing .footer .items{
+    width: 818px;
+    height: 368px;
+    position: absolute;
+    left: 542px;
+    bottom: 80px;
+
+}
+.landing .footer .items .one{
+    width: 818px;
+    height: 187px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.landing .footer .items .one .link{
+    width: 151px;
+    height: 187px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.landing .footer .items .one .link h4{
+    width: 151px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
+    color: #ffff;
+}
+.landing .footer .items .one .link .word{
+    width: 86px;
+    height: 124px;
+    margin-top: 24px;
+    margin-left: 0;
+}
+.landing .footer .items .one .link .word a{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    height: 19px;
+    align-content: space-between;
+    margin-top: 16px;
+}
+.landing .footer .items .one .resources{
+    width: 147px;
+    height: 152px;
+    margin-top: -187px;
+    margin-left: 275px;
+}
+.landing .footer .items .one .resources h4{
+    width: 129px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
+    color: #FFFFFF;
+}
+.landing .footer .items .one .resources .word{
+    width: 147px;
+    height: 89px;
+    margin-top: 24px;
+}
+.landing .footer .items .one .resources .word a{
+    width: 147px;
+    height: 19px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-content: space-between;
+    margin-top: 16px;
+}
+.landing .footer .items .media{
+    width: 272px;
+    height: 111px;
+    margin-top: -152px;
+    margin-left: 546px;
+}
+.landing .footer .items .media h4{
+    width: 158px;
+    height: 39px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 28px;
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+.landing .footer .items .media .pic{
+    width: 272px;
+    height: 48px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.landing .footer .items .media .pic img{
+    width: 48px;
+    height: 48px;
+}
+.landing .footer .items .two{
+    width: 818px;
+    height: 141px;
+    margin-top: 40px;
+}
+.landing .footer .items .two h4{
+    width: 124px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 28px;
+    display: flex;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+}
+.landing .footer .items .two .button{
+    width: 818px;
+    height: 78px;
+    border-radius: 16px;
+    margin-top: 24px;
+    background: #FFFFFF14;
+
+}
+.landing .footer .items .two .button .inf{
+    width: 567px;
+    height: 30px;
+    margin-top: 24px;
+    margin-left: 24px;
+    float: left;
+}
+.landing .footer .items .two .button .inf img{
+    width: 30px;
+    height: 30px;
+}
+.landing .footer .items .two .button .inf p{
+    width: 208px;
+    height: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF66;
+    margin-top: 0px;
+    margin-right: 321px;
+    float: right;
+}
+.landing .footer .items .btn{
+    width: 179px;
+    height: 62px;
+    border-radius: 8px;
+    background-color: #6D1600;
+    margin-top: 8px;
+    margin-right: 8px;
+    float: right;
+}
+.landing .footer .items .btn a{
+    text-decoration: none;
+    width: 51px;
+    height: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #d61b1b;
+    margin: 16px 64px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;}
+
+    .task4{
+        width: 1920px;
+        height: 1080px;
+        top: -2206px;
+        left: -1042px;
+        background: #FFFFFF;
+        
+    }
+    .task4 .item{
+        width: 1600px;
+        height: 240px;
+        position: relative;
+        top: 803px ;
+        right: 165px;
+        bottom: 37px;
+        left: 155px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 32px;
+        background-color: #ffffff;
+
+    }
+    .task4 .item .tree{
+        width: 512px;
+        height: 240px;
+        top: 803px;
+        left: 1243px;
+        float: right;
+    }
+    .task4 .item .tree .text{
+        width:320px ;
+        height: 186;
+        margin: 27px 96px 27px 96px;
+    }
+    .task4 .item .tree .text .wifi{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 8px;
+
+    }
+    .task4 .item .tree .text h4{
+        width: 300px;
+        height: 36px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #313131;
+    }
+    .task4 .item .tree .text p{
+        width: 320px;
+        height: 54px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #909090;
+    }
+    .task4 .item .two{
+        width: 512px;
+        height: 240px;
+        top: 803px;
+        left: 699px;
+        box-sizing: border-box;
+        display: flex;
+
+    }
+
+    .task4 .item .two .text{
+        width: 320px;
+        height: 186px;
+        margin: 27px 96px 27px 96px;
+
+    }
+    .task4 .item .two .text .room{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 8px;
+
+    }
+    .task4 .item .two .text h4{
+        width: 253px;
+        height: 36px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #313131;
+    }
+    .task4 .item .two .text p{
+        width: 320px;
+        height: 54px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #909090;
+    }
+    .task4 .item .one{
+        width: 512px;
+        height: 240px;
+        top: 803px;
+        left: 155px;
+        box-sizing: border-box;
+        display: flex;
+        float: left;
+    }
+    .task4 .item .one .text{
+        width: 320px;
+        height: 186px;
+        margin: 27px 96px 27px 96px;
+
+    }
+    .task4 .item .one .text .location{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 8px;
+    }
+    .task4 .item .one .text h4{
+        width: 156px;
+        height: 36px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #313131;
+    }
+    .task4 .item .one .text p{
+        width: 320px;
+        height: 54px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #909090;
+
+    }
+    
+     .task4 .navbar{
+        width: 1920px;
+        height: 120px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 0px;
+
+    }
+    .task4 .navbar img{
+        width: 225px;
+        height: 54px;
+        position: relative;
+        top: 33px;
+        left: 160px;
+        size: 36px;
+        font-weight: 600;
+    }
+     .task4 .navbar .menu{
+        width: 534px;
+        height: 32px;
+        position: absolute;
+        top: 44px;
+        right: 693px;
+        bottom: 1004px;
+        left:693px ;
+        background-color: #ffffff;
+        display: flex;
+        word-spacing: 56px;
+        
+
+    }
+    .task4 .navbar .menu ul{
+        list-style: none;
+        
+    }
+    .task4 .navbar .menu ul li{
+        display: inline-block;
+        
+    }
+    .task4 .navbar .menu ul li a{
+        text-decoration: none;
+        color: #313131;
+        font-size: 18px;
+        font-weight: 400px;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+    .task4 .navbar .menu ul li a.color{
+        color: #9B9A78;
+
+    }
+    .task4 .navbar .menu img{
+        width: 13.26px;
+        height: 8.01px;
+        top: 8px;
+        left: 9.33px;
+    }
+    .task4 .navbar #d{
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 41px;
+        left: 1410px;
+        
+    }
+    .task4 .navbar .button{
+        width: 253px;
+        height: 60px;
+        position: absolute;
+        top: 30px;
+        left: 1507px;
+    }
+    .task4 .navbar .button .button1{
+        width: 72px;
+        height: 56px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        float: left;
+        border-radius: 16px;
+    }
+    .task4 .navbar .button .button1 a{
+        width: 56px;
+        height: 40px;
+        line-height: 40px;
+        letter-spacing: 0%;
+        color: #9B9A78;
+        font-weight: 400;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    
+    }
+    .task4 .navbar .button .button2{
+        width: 149px;
+        height: 60px;
+        float: right;
+        background-color: #9B9A78;
+    }
+    .task4 .navbar .button .button2 a{
+        width:68px;
+        height: 27px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16.5px;
+        margin-left: 40.5px;
+        text-decoration: none;
+    }
+    .task4 .title{
+        width: 1600px;
+        height: 588px;
+        position: absolute;
+        top :144px;
+        right:160px;
+         bottom:348px;
+         left:160px;
+        background-color:#ffffff;
+    }
+    .task4 .title img{
+        width: 960px;
+        height: 560px;
+        margin-top:0px ;
+        margin-left: 0px;
+
+    }
+    .task4 .title .text{
+        width: 816px;
+        height: 419px;
+        display: flex;
+        position: absolute;
+        top: 71px;
+        right: 640px;
+        bottom: 70px;
+        left: 784px;
+        backdrop-filter: blur(16px);
+        background: #FFFFFFB2;
+       opacity:96% ;
+
+    }
+    .task4 .title .text h1{
+        width: 750px;
+        height: 216px;
+        margin-top: 26px;
+        margin-right: 20px;
+        margin-bottom: 43px;
+        margin-left: 46px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 72px;
+        letter-spacing: 0%;
+        color: #313131;
+        font-family: "Playfair Display", serif;
+
+    }
+    .task4 .title .text p{
+        width: 760px;
+        height: 80px;
+        display: flex;
+        position: absolute;
+        top: 285px;
+        left: 46px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0%;
+        font-size: 24px;
+        color: #909090;
+    }
+    .task4 .title .list{
+        width: 428px;
+        height: 78px;
+        position: absolute;
+        top: 510px;
+        right: 80px;
+    }
+    .task4 .title .list .group1{
+        width: 207px;
+        height: 78px;
+        float: left;
+    }
+    .task4 .title .list .group2{
+        width: 189px;
+        height: 78px;
+        float: right;
+    }
+    .task4 .title .list .group1 .two{
+        width: 174px;
+        height: 27px;
+        position: absolute;
+        top: 51px;      
+    }
+    .task4 .title .list .group1 .two p{
+        width: 140px;
+        height: 27px;
+        display: flex;
+        align-items: center;
+        float: right;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #313131;
+    }
+    .task4 .title .list .group1 .two img{
+        width: 24px;
+        height: 24px;
+        float: left;
+    }
+    .task4 .title .list .group1 .one{
+        width: 207px;
+        height: 27px;
+    }
+    .task4 .title .list .group1 .one p{
+        width: 173px;
+        height: 27px;
+        display: flex;
+        align-items: center;
+        float: right;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #313131;
+    }
+    .task4 .title .list .group1 .one img{
+        width: 24px;
+        height: 24px;
+        top: 1.5px;
+        float: left;
+    }
+    .task4 .title .list .group2 .four{
+        width: 159px;
+        height: 27px;
+        position: absolute;
+        top: 51px;  
+        left: 239px;
+    }
+    .task4 .title .list .group2 .four p{
+        width: 125px;
+        height: 27px;
+        display: flex;
+        align-items: center;
+        float: right;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #313131;
+    }
+    .task4 .title .list .group2 .four img{
+        width: 24px;
+        height: 24px;
+        float: left;
+    }
+    .task4 .title .list .group2 .three{
+        width: 189px;
+        height: 27px;
+    }
+    .task4 .title .list .group2 .three p{
+        width: 155px;
+        height: 27px;
+        display: flex;
+        align-items: center;
+        float: right;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #313131;
+    }
+    .task4 .title .list .group2 .three img{
+        width: 24px;
+        height: 24px;
+        top: 1.5px;
+        float: left;
+    }
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    

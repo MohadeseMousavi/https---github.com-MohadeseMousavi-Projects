@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.task3{
+    width: 1440px;
+    height: 1024px;
+    top: -3466px;
+    left: 1057px;
+    background-color: #0C172C;
+}
+.task3 img{
+    width: 827px;
+    height: 1024px;
+    top: -61px;
+    left: -56px;
+}
+
+.task3 .image img{
+width:428px ;
+height:45px ;
+display: flex;
+position: absolute;
+top: 145px;
+left:887px ;
+}
+.task3 .Rectangle{
+width: 56px;
+height: 8px;
+position: absolute;
+top: 182px;
+left: 1067px;
+}
+.task3 .form{
+    width: 497px;
+    height: 652px;
+    position: absolute;
+    top:236px ;
+    left:885px ;
+}
+.task3 .form p{
+    width: 166px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.task3 .form .block{
+    width: 497px;
+    height: 605px;
+    
+}
+.task3 .form .block .block1{
+    width: 497px;
+    height: 440px;
+}
+.task3 .form .block .block1 .section1{
+    width:497px ;
+    height:70px ;
+    margin-top: 23px;
+}
+.task3 .form .block .block1 .section1 p{
+    width: 78px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ADADAD;
+}
+.task3 .form .block .block1 .section1 .full-name{
+    width: 497px;
+    height: 35px;
+    margin-top: 11px;
+}
+.task3 .form .block .block1 .section1 .full-name p{
+    width: 44px;
+    height: 24;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F0F0F0;
+}
+.task3 .form .block .block1 .section1 .full-name img{
+    width: 497px;
+    height: 0;
+    border: 1px solid #595959;
+    margin-top: 11px;
+    
+}
+.task3 .form .block .block1 .section2{
+    width: 497px;
+    height: 70px;
+    margin-top: 34px;
+}
+.task3 .form .block .block1 .section2 p{
+    width:44px ;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ADADAD;
+}
+.task3 .form .block .block1 .section2 .email{
+    width:497px ;
+    height:35px ;
+}
+.task3 .form .block .block1 .section2 .email p{
+    width: 279px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#F0F0F0;
+    margin-top: 11px;
+}
+.task3 .form .block .block1 .section2 .email img{
+    width: 497px;
+    height: 0;
+    border: 1px solid #595959;
+    margin-top: 11px;
+}
+.task3 .form .block .block1 .section3{
+    width: 497px;
+    height: 70px;
+}
+.task3 .form .block .block1 .section3 img{
+    width: 497px;
+    height: 70px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.task3 .form .block .block1 .section4{
+    width: 497px;
+    height: 70px;
+    margin-top: 34px;
+}
+.task3 .form .block .block1 .section4 img{
+    width: 497px;
+    height: 70px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.task3 .form .block .block1 .section5{
+    width: 273px;
+    height: 24px;
+    margin-top: 34px;
+    margin-right: 260px;
+}
+.task3 .form .block .block1 .section5 img{
+    width: 237px;
+    height: 24px;
+    margin-top: 34px;
+}
+.task3 .block .block2{
+    width: 497px;
+    height: 121px;
+    margin-top: 44px;
+}
+.task3 .block .block2 .button{
+    width: 497px;
+    height: 74px;
+    border-radius: 10px;
+    background-color:#27395B;
+}
+.task3 .block .block2 .button .text{
+    width: 153px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task3 .block .block2 .button .text img{
+    width: 153px;
+    height: 24px;
+    display: flex;
+    position: relative;
+    top: 25px;
+    right: 172px;
+    bottom: 72px;
+    left: 172px;
+}
+.task3 .block .block2 .lorem{
+    width: 276px;
+    height: 24px;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 136px;
+    margin-left:110.5px ;
+    margin-right: 110.5px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
